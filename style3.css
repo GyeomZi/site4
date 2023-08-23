@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    font-size: 40px;
+    display: flex;
+    justify-content: left;
+    color: gray;
+    padding: 5px 0;
+}
+
+
+nav {
+    border:1px solid gray;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding:6px 0;
+ align-items: center;
+ justify-content: center;
+}
+
+.bannerbox{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bannerbox h1{
+    background-color: aliceblue;
+}
+.banner{
+    padding:10px;
+    border: 3px solid gray;
+    justify-content:center;
+    display:flex;
+}
+
+.banner a{
+    border:1px solid white;
+    margin:15px;
+    cursor:pointer;
+}
+
+
+nav a:hover {
+    background-color: #777;
+}
+
+/* nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+} */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+*/
+
+/* nav a:hover {
+    background-color: #777;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+/* Main content */
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: auto;
+
+}
+
+figure {
+    background-color: rgb(12, 12, 12);
+    height: auto;
+    object-fit: cover;
+    z-index: 50;
+}
+
+.image {
+ display:flex;
+ justify-content: space-between;
+    box-sizing: border-box;
+    background-color:grey;
+
+}
+
+.btn{
+
+}
+.image img {
+    max-width:auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sectionbox{
+}
+section {
+
+    display:block;
+    border: 1px solid rgb(41, 40, 40);
+    background-color: rgba(12, 12, 12, 12);
+    color: white;
+    padding:15px;
+}
+
+
+/* Footer */
+footer {
+    display:flex;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+
+/* ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+} */
+
+/* .container {
+    display: flex;
+    background-color:white;
+    height: auto;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    gap: 150px;
+}
+
+.box_inner {
+    font-size: 0px;
+}
+
+.btn {
+border:1px solid black;
+} */
+
+/* Add your mobile-specific styles here */
+@media (max-width: 768px) {
+    /* CSS rules for screens with a maximum width of 768px (typical mobile devices) */
+    body {
+        font-size: 14px;
+        /* Adjust font size for mobile */
+    }
+
+    /* Add more styles as needed */
+
+}
